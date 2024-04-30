@@ -1,0 +1,16 @@
+C:\Cursos\Sistema de informação\1_2024\Diciplinas\POO\CRUDClientes\obj\Debug\net6.0-windows\CRUDClientes.Form1.resources
+C:\Cursos\Sistema de informação\1_2024\Diciplinas\POO\CRUDClientes\obj\Debug\net6.0-windows\CRUDClientes.csproj.GenerateResource.cache
+C:\Cursos\Sistema de informação\1_2024\Diciplinas\POO\CRUDClientes\obj\Debug\net6.0-windows\CRUDClientes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Cursos\Sistema de informação\1_2024\Diciplinas\POO\CRUDClientes\obj\Debug\net6.0-windows\CRUDClientes.AssemblyInfoInputs.cache
+C:\Cursos\Sistema de informação\1_2024\Diciplinas\POO\CRUDClientes\obj\Debug\net6.0-windows\CRUDClientes.AssemblyInfo.cs
+C:\Cursos\Sistema de informação\1_2024\Diciplinas\POO\CRUDClientes\obj\Debug\net6.0-windows\CRUDClientes.csproj.CoreCompileInputs.cache
+C:\Cursos\Sistema de informação\1_2024\Diciplinas\POO\CRUDClientes\bin\Debug\net6.0-windows\CRUDClientes.exe
+C:\Cursos\Sistema de informação\1_2024\Diciplinas\POO\CRUDClientes\bin\Debug\net6.0-windows\CRUDClientes.deps.json
+C:\Cursos\Sistema de informação\1_2024\Diciplinas\POO\CRUDClientes\bin\Debug\net6.0-windows\CRUDClientes.runtimeconfig.json
+C:\Cursos\Sistema de informação\1_2024\Diciplinas\POO\CRUDClientes\bin\Debug\net6.0-windows\CRUDClientes.dll
+C:\Cursos\Sistema de informação\1_2024\Diciplinas\POO\CRUDClientes\bin\Debug\net6.0-windows\CRUDClientes.pdb
+C:\Cursos\Sistema de informação\1_2024\Diciplinas\POO\CRUDClientes\obj\Debug\net6.0-windows\CRUDClientes.dll
+C:\Cursos\Sistema de informação\1_2024\Diciplinas\POO\CRUDClientes\obj\Debug\net6.0-windows\refint\CRUDClientes.dll
+C:\Cursos\Sistema de informação\1_2024\Diciplinas\POO\CRUDClientes\obj\Debug\net6.0-windows\CRUDClientes.pdb
+C:\Cursos\Sistema de informação\1_2024\Diciplinas\POO\CRUDClientes\obj\Debug\net6.0-windows\CRUDClientes.genruntimeconfig.cache
+C:\Cursos\Sistema de informação\1_2024\Diciplinas\POO\CRUDClientes\obj\Debug\net6.0-windows\ref\CRUDClientes.dll
