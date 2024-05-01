@@ -9,7 +9,7 @@ namespace CRUDClientes
 {
     internal class ClienteDAO
     {
-        //manipulação em memária primária
+        //manipulação em memória primária
         private List<Cliente> clientes;
 
         public ClienteDAO() {
@@ -20,8 +20,8 @@ namespace CRUDClientes
         public void Adicionar(Cliente cliente)
         {
             if(this.clientes.Exists(c => c.Email.Equals(cliente.Email))) {
-                throw new Exception("Já existe esse cliente na base");
 
+                throw new Exception("Já existe esse cliente na base");
             }
             else
             {

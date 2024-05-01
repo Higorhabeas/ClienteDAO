@@ -17,40 +17,48 @@ namespace CRUDClientes
 
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
-            Cliente cliente = new Cliente()
+            if(textBox1.Text == "" || textBox2.Text == "")
             {
-                Nome = textBox1.Text,
-                Email = textBox2.Text
+                MessageBox.Show("Favor preencher todos os campos da tela.");
+            }
+            else
+            {
+                Cliente cliente = new Cliente()
+                {
+                    Nome = textBox1.Text,
+                    Email = textBox2.Text
 
-            };
+                };
 
-            clientes.Adicionar(cliente);
-            clientes.Salvar();
+                clientes.Adicionar(cliente);
+                clientes.Salvar();
 
-            dataGridView1.DataSource = null;
-            dataGridView1.DataSource = clientes.GetClientes();
+                dataGridView1.DataSource = null;
+                dataGridView1.DataSource = clientes.GetClientes();
+            }
+            
+            
         }
 
         private void btnExcluir_Click(object sender, EventArgs e)
         {
+            //verifica se há linha selecionada
             if (dataGridView1.SelectedRows.Count > 0)
             {
                 List<Cliente> Listaclientes = new List<Cliente>();
                 Listaclientes = clientes.GetClientes();
 
                 Cliente clienteexcluir = new Cliente();
-                int rowIndex = dataGridView1.SelectedRows[0].Index;
+                
+                //capturando id da posição da linha que desejo excluir
+                int linhaIndex = dataGridView1.SelectedRows[0].Index;
 
-                clienteexcluir = Listaclientes[rowIndex];
+                //jogando para variável o objeto cliente que desejo exlcuir
+                clienteexcluir = Listaclientes[linhaIndex];
 
                 DataGridViewRow LinhaSelecionada = dataGridView1.SelectedRows[0];
-
-                //string nome = LinhaSelecionada.Cells["Nome"].Value.ToString();
-                //string email = LinhaSelecionada.Cells["Email"].Value.ToString();
-
-                //MessageBox.Show(clienteexcluir.Nome +clienteexcluir.Email);
-
-                //clientes = new ClienteDAO();
+                
+                //chamando o método remover de clienteDAO
                 clientes.Remover(clienteexcluir);
                 clientes.Salvar();
 
