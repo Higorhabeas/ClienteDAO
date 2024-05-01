@@ -50,7 +50,7 @@ namespace CRUDClientes
 
                 //MessageBox.Show(clienteexcluir.Nome +clienteexcluir.Email);
 
-                clientes = new ClienteDAO();
+                //clientes = new ClienteDAO();
                 clientes.Remover(clienteexcluir);
                 clientes.Salvar();
 
