@@ -35,6 +35,7 @@
             label1 = new Label();
             label2 = new Label();
             dataGridView1 = new DataGridView();
+            Salvar = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -93,17 +94,31 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.EditMode = DataGridViewEditMode.EditOnEnter;
             dataGridView1.Location = new Point(408, 46);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowTemplate.Height = 25;
             dataGridView1.Size = new Size(334, 263);
             dataGridView1.TabIndex = 6;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            dataGridView1.EnabledChanged += dataGridView1_EnabledChanged;
+            // 
+            // Salvar
+            // 
+            Salvar.Location = new Point(408, 330);
+            Salvar.Name = "Salvar";
+            Salvar.Size = new Size(120, 23);
+            Salvar.TabIndex = 7;
+            Salvar.Text = "Salvar alteração";
+            Salvar.UseVisualStyleBackColor = true;
+            Salvar.Click += Salvar_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(Salvar);
             Controls.Add(dataGridView1);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -128,5 +143,6 @@
         private Label label1;
         private Label label2;
         private DataGridView dataGridView1;
+        private Button Salvar;
     }
 }
